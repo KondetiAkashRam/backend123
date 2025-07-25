@@ -70,9 +70,9 @@ def send_email():
           <h3>Optional Services</h3>
           <p>Based on your specific needs, you may require these additional services:</p>
           <ul>
-            <li><strong>{country} Branch Registration</strong>: €{branch_total_standalone} (One-time, {branch_processing_time})</li>
-            <li><strong>{entity_type} Company Formation</strong>: €{ltd_registration_fee}</li>
-            <li><strong>{country} Tax ID Registration</strong>: €{tax_id_registration_fee}</li>
+            <li><strong>{country} Branch Registration</strong></li>
+            <li><strong>{entity_type} Company Formation</strong></li>
+            <li><strong>{country} Tax ID Registration</strong></li>
           </ul>
           <h3>Your Selections</h3>
           <table style="width: 100%; border-collapse: separate; border-spacing: 10px;">
