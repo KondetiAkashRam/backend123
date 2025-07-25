@@ -39,9 +39,9 @@ def send_email():
     tax_id_registration_fee = data.get('tax_id_registration_fee', 'TBD')
     entity_type = data.get('entity_type', 'N/A')
     lead_phase_cta = data.get('lead_phase_cta', 'Reply to this email to schedule your consultation today!')
-    agent_name = data.get('agent_name', 'YourCompanyName Team')
-    agent_position = data.get('agent_position', 'Customer Success Manager')
-    agent_phone = data.get('agent_phone', '+123-456-7890')
+    agent_name = data.get('agent_name', 'Dr. Krishna Kishore')
+    agent_position = data.get('agent_position', 'Director')
+    agent_phone = data.get('agent_phone', '+91 7893525665')
     agent_email = data.get('agent_email', 'support@houseofcompanies.io')
 
     # Validate required fields
