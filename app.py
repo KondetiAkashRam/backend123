@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
-CORS(app, resources={r"/send-email": {"origins": "https://chatbot-lead-qualification-flow.vercel.app/"}})  # Replace with your front-end domain
+CORS(app, resources={r"/send-email": {"origins": "*"}})  # Replace with your front-end domain
 
 @app.route('/send-email', methods=['POST'])
 def send_email():
