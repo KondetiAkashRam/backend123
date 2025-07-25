@@ -71,7 +71,7 @@ def send_email():
           <p>Based on your specific needs, you may require these additional services:</p>
           <ul>
             <li><strong>{country} Branch Registration</strong></li>
-            <li><strong>{entity_type} Company Formation</strong></li>
+            <li><strong>Company Formation</strong></li>
             <li><strong>{country} Tax ID Registration</strong></li>
           </ul>
           <h3>Your Selections</h3>
