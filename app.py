@@ -111,15 +111,15 @@ def send_email():
 
     msg = MIMEMultipart("alternative")
     msg['Subject'] = f"Your {country} Business Expansion: Compliance-to-Scale Solutions"
-    msg['From'] = os.environ.get('EMAIL_ADDRESS', 'pardhasaradhi52609@gmail.com')
+    msg['From'] = os.environ.get('EMAIL_ADDRESS', 'krishna@houseofcompanies.io')
     msg['To'] = email
     msg.attach(MIMEText(html, "html"))
 
     try:
         server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
         server.login(
-            os.environ.get('EMAIL_ADDRESS', 'pardhasaradhi52609@gmail.com'),
-            os.environ.get('EMAIL_PASSWORD', 'bkla cbbn svoe nfyj')
+            os.environ.get('EMAIL_ADDRESS', 'krishna@houseofcompanies.io'),
+            os.environ.get('EMAIL_PASSWORD', 'maan tkeo hrbi gdhb')
         )
         server.send_message(msg)
         server.quit()
